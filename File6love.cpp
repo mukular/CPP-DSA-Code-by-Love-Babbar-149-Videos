@@ -8,6 +8,7 @@ int main(){
     cin>>n;
     //convert decimal to binary for +ve numbers
     float ans = 0;  // agar apan ans ko int lenge toh output galat aa raha h input 1000 ke liye toh abhi bhi galat aa raha h
+    // ho sakta h pow function kuch thodi si error produce karta h isliye galat aa raha h
     int i = 0;
     while(n!=0){
         int bit = n & 1;

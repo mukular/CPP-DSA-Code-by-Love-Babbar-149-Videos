@@ -186,6 +186,7 @@ Node* floydDetectLoop(Node* head)
         slow = slow->next;
         if(slow == fast)
         {
+            cout<<"present at "<< slow->data<<endl;
             return slow;
         }
     }

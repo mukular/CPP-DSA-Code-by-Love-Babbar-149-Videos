@@ -31,6 +31,7 @@ class Queue{
         }
     }
 
+    // Time Complexity = O(1)
     void enqueue(int data)
     {
         if(rear == size)
@@ -44,6 +45,7 @@ class Queue{
         }
     }
 
+    // Time Complexity = O(1)
     int dequeue()
     {
         if(qfront == rear)
@@ -64,6 +66,7 @@ class Queue{
         }
     }
 
+    // Time Complexity = O(1)
     int front()
     {
         if(qfront == rear)
